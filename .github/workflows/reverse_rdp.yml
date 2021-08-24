@@ -31,5 +31,8 @@ jobs:
       run: cmd /c uan.bat
     - name: Create Tunnel
       run: .\ngrok\ngrok.exe tcp 3389
+    - run: Start Mashine
+      run: cmd shutdown
+      
       
     
